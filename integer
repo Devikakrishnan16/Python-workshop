@@ -1,0 +1,10 @@
+def solution(nums):
+    dictionary={}
+    for i in nums:
+      if i not in dictionary:
+        dictionary[i]=1
+    else:
+        return True
+    return False
+nums = [5,2,4]
+print(solution(nums))

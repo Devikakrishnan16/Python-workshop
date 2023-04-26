@@ -1,0 +1,25 @@
+#def add():
+   # result=5+7
+  #  return result
+
+#ans = add()
+#print(ans)
+
+ #def add(value1,value2):
+   
+
+#
+    #default arguments
+
+    #def add (x,y=10):
+      #  print(x+y)
+
+  #  add(10,6)
+
+x=10
+def change_value_ofX(x):
+    x=30
+    change_value_ofX(x)
+
+print(x)
+

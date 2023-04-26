@@ -1,0 +1,10 @@
+credentials={"alice":"alice123","bob":"bob123"}
+username=input("Enter your username:")
+password=input("Enter your password")
+original_password=credentials[username]
+
+if password==original_password:
+
+    print("login success")
+else:
+    print("login failed")
